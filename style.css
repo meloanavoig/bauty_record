@@ -1,0 +1,87 @@
+body {
+    background-color: #009688;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+body img {
+    width: 200px;
+    height: 150px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #009688;
+}
+
+}
+.first-content {
+    display: flex;
+}
+
+
+
+.btn-primary {
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: background-color .5s;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 50px;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 10px;
+
+}
+
+
+input{
+    display: block;
+    height: 40px;
+    width: 210px;
+    margin-top: 15px;
+    border-radius: 40px;
+    border: none;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: none;
+    
+}
+
+input[type=submit]{
+    cursor: pointer;
+    font-size: 10px;
+
+}
+
+div#back {
+    width: 5px;
+
+}
